@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="shortcut icon" href="../Logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+	<div class="titles">
+		<h1>Registration<br> Form</br></h1>
+		<h2>Student Information:</h2>
+	</div>
+
+	<div class="form">
+		<form id="Form" action="http://localhost/Programas/Formulario_Inscripcion/PHP/Procesar_Formulario.php" method="POST">
+			<label for="name">Full Name:</label>
+			<br><br>
+			<input type="text" id="name" name="name" placeholder="e.g., Hirakjyoti Deka ">
+
+			<br><br>
+			<label for="birthdate">Date of Birth:</label>	
+			<br><br>
+			<input type="date" id="birthdate" name="birthdate">
+
+			<br><br>
+			<label for="phone">Phone Number:</label>
+			<br><br>
+			<input type="tel" id="phone" name="phone" placeholder="e.g., 0987654321">
+
+			<br><br>
+			<label for="email">Email:</label>
+			<br><br>
+			<input type="email" id="email" name="email" placeholder="e.g., example@gmail.com">
+			<br><br>
+			<label for="password">Password:</label>
+			<br><br>
+			<input type="password" id="password" name="password" placeholder="******">
+
+			
+			<br><br>
+
+			<button> <a href="404.html">Submit</a> </button>
+			<p>Don't have an account? <a href="404.html">Sign Up</a></p>
+
+		</form>
+	</div>	
+	<script src="../JS/main.js"></script>
+
+</body>
+</html>
